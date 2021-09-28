@@ -3,6 +3,9 @@
 def add(num1,num2):
 return num1+num2
 
+
+def sub(num1,num2):
+ return num1-num2
 # main
-res = add(5,6)
-print(res)
+print(add(5,6))
+print(sub(5,6))
